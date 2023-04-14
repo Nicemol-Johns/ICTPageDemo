@@ -1,0 +1,145 @@
+/* THE WHOLE BODY */
+*{
+    padding:0;
+    margin:0;
+}
+/* ------------------- */
+
+/* set the backgroung IMAGE to cover the whole body */
+body{
+    background-size: cover;
+}
+/* ------------------- */
+
+/* HEADER */
+
+header{
+    background-color: black;
+    height:95px;
+}
+/* adjust the logo height and width */
+#logo{
+    margin-left: 120px;
+    margin-top:15px;
+    width: 70px;
+    height:70px;
+}
+/* move the nav bar menus to right of header */
+.hyperlinks{
+    float:right;
+    margin-top: 40px;
+    margin-right:50px;
+}
+/* modify each menu item  */
+.hyperlinks a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:azure;
+    text-decoration:none;
+    border: 1px solid white;
+    padding:5px 10px 5px 10px;
+    margin-right: 8px;
+}
+/* add the hovering effect*/
+.hyperlinks a:hover{
+    color:black;
+    background-color:teal;
+    transition: 0.5s ease-in-out;
+}
+/* /HEADER */
+
+/* ------------------- */
+
+/* SIDEBAR */
+
+/* style the sidebar */
+.sidebar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:azure;
+    font-size: medium;
+    margin-top: 150px;
+    margin-left:100px;
+}
+
+.sidebar li{
+    list-style:disc;
+    padding:5px;
+}
+/* /SIDEBAR*/
+
+/* ------------------- */
+
+/*LOGIN FORM*/
+
+/*moving the form to right */
+#login{
+    background-color: blanchedalmond;
+    border:3px solid red;
+    float:right;
+    margin-top: 100px;
+    margin-right:50px;
+    padding:30px
+}
+/*the heading part of the login form*/
+#login h2{
+    text-align:center;
+    padding-bottom: 20px;
+}
+/*Login button in the login form*/
+.click{
+    background-color:rgb(47, 47, 244);
+    color:aliceblue;
+    border:transparent;
+    width:100%;
+    height:2em;
+}
+
+/*/LOGIN FORM*/
+
+/* ------------------- */
+
+/*CONTENTS DIV*/
+
+.contents{
+    margin-top:10%;
+    margin-left:100px;
+}
+/*each item in the contents container. the width is reduced and then moved to left, else if the div item occupies full width the pattern of 4 horizontal rows placed next to each other cannot be obtained.*/
+.item-content{
+    border:4px solid white;
+    width:22%;
+    height:18em;
+    background-color: gainsboro;
+    margin-right:10px;
+    float:left;
+    padding:5px;
+}
+.item-content p{
+    text-align: justify;
+}
+/*access the heading inside the hosrizontal div*/
+.item-content h3{
+    text-transform:uppercase;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:20px;
+}
+/*access the anchor inside the hosrizontal div*/
+.item-content a{
+    color:red;
+    text-decoration:none;
+}
+/* ------------------- */
+/* FOOTER */
+footer{
+    margin-top:31.5%;
+    background-color: black;
+    height:1.5em;
+    color:white;
+    text-align: center;
+
+}
+
+footer a{
+    text-decoration: none;
+    color:cadetblue;
+}
